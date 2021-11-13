@@ -20,3 +20,6 @@ Create a new variable with your favorite ice cream flavor
 Log the string, 'My favorite ice cream flavor is (your favorite ice cream flavor)'
 After completing push your file to github:
 Make sure to add a link to your file as your hw submission!
+
+
+

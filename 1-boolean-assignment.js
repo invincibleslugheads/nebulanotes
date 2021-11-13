@@ -1,4 +1,8 @@
-//should i be reading these in another way or do I keeep doing it they way I have been: copy from github and create a new .js file and then paste the assignment
+//should i be reading these in another way or do I keeep doing it they way I have been: copy text from github and create a new .js file and then paste the assignment.
+//I also took from Intro_To_JavaScript directory from VS Code and copied the .js files into my Notes folder
+
+
+
 
 //1. Write a statement that checks if 2 and 'two' are equal
 

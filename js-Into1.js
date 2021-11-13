@@ -19,3 +19,6 @@ console.log(name + " is a " + color + " colored " + animalType + " who is " + ag
       let carEngineSize = 5.7;
 
       console.log(`I have a ${carYear} ${carMake} ${carModel} ${carType}, which gets ${carMpg} mpg with a ${carEngineSize} liter engine`)
+
+
+      //Thomas Orrico - finished 11/9

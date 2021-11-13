@@ -80,3 +80,6 @@ console.log(name4);
 
 //Bonus: Dynamically get the initials from the above names
 
+
+
+//Thomas Orrico - finished 11/10
