@@ -25,7 +25,7 @@ console.log(Math.random()*1000);
 
 //In your own words describe what "type coercion" in JavaScript is - this can be brief.
 
-	//this is the process of converting or chaning one data type (example: integer) to another data type (example: string). This can happen automatically or if prompted to with indentifiers through the compiler or when the program is running.
+	/* this is the process of converting or chaning one data type (example: integer) to another data type (example: string). This can happen automatically or if prompted to with indentifiers through the compiler or when the program is running. */
 
   /*1. Temperature Converter Lab
      Objective: Create a program that can convert temperature from Fahrenheit, to Celsius, or Kelvin and back.  
@@ -34,10 +34,34 @@ console.log(Math.random()*1000);
             2. Given a temperature in Celsius write the code that converts Celsius to its equivalent Fahrenheit & Kelvin values
             3. Given a temperature in Kelvin write the code that converts Kelvin to its equivalent Fahrenheit & Celsius values
                  Note: Conversion formula: http://www.csgnetwork.com/temp2conv.html.
-                 Note: Sample temperatures: 32f = 0c = 273.15K.
+                 Note: Sample temperatures: 32f = 0c = 273.15K.*/
 
-  2. Create a variable and assign the string: "we are coders!",
-      then In ONE LINE - extract the word "coder" and log it.
 
-After completing push your file to github:
-Make sure to add a link to your file as your hw submission!*/
+let currTemp = 64;
+
+
+let fahrToCels = (currTemp - 32) / 1.8
+let fahrToKelv = (currTemp + 459.67) / 1.8
+let celsToFahr = currTemp * 1.8 + 32
+let celsToKelv = currTemp + 273.15
+let kelvToCels = currTemp - 273.15
+let kelvToFahr = currTemp * 1.8 - 459.67
+
+
+console.log("64 degrees from Fahrenheit in Celsius is " + Math.round(fahrToCels));
+console.log("64 degrees from Fahrenheit in Kelvin is " + Math.round(fahrToKelv));
+console.log("64 degrees from Celsius in Fahrenheit is " + Math.round(celsToFahr));
+console.log("64 degrees from Celsius in Kelvin is " + Math.round(celsToKelv));
+console.log("64 degrees from Kelvin in Celsius is " + Math.round(kelvToCels));
+console.log("64 degrees from Kelvin in Fahrenheit is " + Math.round(kelvToFahr));
+
+
+//   2. Create a variable and assign the string: "we are coders!",
+//       then In ONE LINE - extract the word "coder" and log it.
+
+
+let declar = 'We are Coders';
+console.log(declar.slice(7, 12));
+
+// After completing push your file to github:
+// Make sure to add a link to your file as your hw submission!
