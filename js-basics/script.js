@@ -1,3 +1,12 @@
+// Push this to GitHub run the three lines
+// git add .
+//git commit -m"Custom message here"
+//git push
+
+
+
+
+
 console.log("Hello World")
 
 

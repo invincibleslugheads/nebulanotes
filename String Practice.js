@@ -1,9 +1,3 @@
-// Push this to GitHub run the three lines
-// git add .
-//git commit -m"Custom message here"
-//git push
-
-
 
 // given the string inputs '5' & '6' add them together so that they equal 11
 
